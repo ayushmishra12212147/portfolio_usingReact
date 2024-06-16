@@ -8,7 +8,7 @@ import git from '../../assets/icons8-github-50.png';
 import hack from '../../assets/icons8-hackerrank-32.png';
 import din from '../../assets/icons8-linkedin-50.png';
 import ins from '../../assets/icons8-instagram-50.png';
-
+import profile from '../../assets/profile.jpeg'
 
 
 function HomePage() {
@@ -27,18 +27,18 @@ function HomePage() {
           Explore my projects to see how I blend creativity with code!
         </div>
         <div className="contact">
-          <a href=""><img src={git} alt="" className='social'/></a>
+          <a href=""><img src={git} alt="" className='social' /></a>
           <a href=""><img src={hack} alt="" className='hack social' /></a>
-          <a href=""><img src={din} alt="" className='social'/></a>
-          <img src={ins} alt="" className='social'/>
+          <a href=""><img src={din} alt="" className='social' /></a>
+          <img src={ins} alt="" className='social' />
         </div>
-        <div className="button">
-          
+        <div className="button_section">
+          <a href="#"><button>Explore More</button></a>
         </div>
 
       </div>
       <div className="main_right">
-
+        <img src={profile} alt="" />
       </div>
 
     </div>
