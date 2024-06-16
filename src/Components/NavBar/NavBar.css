@@ -9,9 +9,9 @@
     top: 0;
 }
 .navbar_left{
-    font-size: 26px;
-    font-weight: 700;
-    color: red;
+    font-size: 27px;
+    font-weight: 900;
+    color:rgb(51, 255, 51);;
 }
 .navbar_right{
 
@@ -23,7 +23,8 @@
     font-size: 22px;
 }
 .navbar_right > p:hover{
-    background-color: grey;
+    background-color:rgb(51, 255, 51);
+    color: black;
     cursor: pointer;
     border-radius: 12px;
     transition: 100ms;

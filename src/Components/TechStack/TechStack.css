@@ -1,0 +1,29 @@
+.title{
+    color:white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -50px;
+}
+.contaner{
+    margin-top: -20px;
+}
+.row1{
+    display: flex;
+    margin: 25px 25px;
+}
+.skill{
+    width: 400px;
+    border: 3px solid red;
+    margin-right: 10px;
+    height: 30px;
+}
+.techstack_icon_container{
+    display: flex;
+    height: 110%;
+    align-content: center;
+    justify-content: center;
+}
+.green{
+    color:rgb(51, 255, 51);
+}
+
