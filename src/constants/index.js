@@ -12,6 +12,14 @@ import mon from '../assets/icons8-mongodb-a-cross-platform-document-oriented-dat
 import node from '../assets/icons8-nodejs-32.png';
 import nosql from '../assets/icons8-nosql-32.png';
 import sql from '../assets/icons8-sql-64.png';
+import hos from '../assets/Hospital.png';
+import cal from '../assets/Screenshot (378).png';
+import ecom from '../assets/ecom.jpg';
+import clo from '../assets/clone.png';
+import blog from '../assets/blogging.png'
+import store from '../assets/Bookstrore.png'
+
+
 
 export const navOptions = [
     "About",
@@ -121,4 +129,60 @@ export const navOptions = [
 
 
 
-  
+
+  export const projectData = [
+    {
+      image:hos,
+      title: "Hospital Managment System",
+      sentences: [
+        "The website provides a unified platform where doctors can input and manage all patient treatment details online, ensuring accurate and up-to-date medical records.",
+        "Patients can easily view their treatment history, access medical information, and book appointments through the user-friendly patient portal, enhancing their healthcare experience.",
+        "This project integrates all hospital management functions into a single, centralized system, streamlining administrative processes and improving overall operational efficiency.",
+      ],
+    },
+    {
+      image:cal,
+      title: "Calculator",
+      sentences: [
+        "The calculator offers a wide range of functions including basic arithmetic, advanced operations, and trigonometric calculations, making it suitable for various mathematical tasks.",
+        "Designed with a clean and intuitive interface, the calculator ensures ease of use for all users, providing quick and accurate results with minimal input effort.",
+        "The calculator is accessible on multiple devices and platforms, ensuring that users can perform calculations anytime and anywhere, whether on a computer, tablet, or smartphone.",
+      ],
+    },
+    {
+      image:ecom,
+      title: "E-comm Website",
+      sentences: [
+        "The e-commerce platform features an extensive range of products across various categories, providing users with detailed descriptions, images, and reviews to make informed purchasing decisions.",
+        "With a user-friendly interface, the platform offers easy navigation, secure payment options, and a streamlined checkout process, ensuring a hassle-free shopping experience for customers.",
+        "The platform supports both sellers and buyers with features like inventory management, sales analytics for sellers, and personalized recommendations, order tracking, and customer support for buyers.",
+      ],
+    },
+    {
+      image:clo,
+      title: "FlipKart Clone",
+      sentences: [
+        " The platform offers a vast selection of products across numerous categories, including electronics, fashion, home goods, and more, mirroring the diversity and depth of Flipkart's catalog.",
+        "Featuring a sleek and intuitive interface, the clone ensures smooth navigation, personalized recommendations, secure payment gateways",
+        "he platform includes robust tools for sellers to manage inventory, track sales, and analyze performance, ",
+      ],
+    },
+    {
+      image:blog,
+      title: "Blogging",
+      sentences: [
+        "The platform provides easy-to-use tools for creating, editing, and publishing blog posts, including a rich text editor, multimedia integration",
+        "Features such as comment sections, social media sharing, and subscription options encourage reader interaction and community building, enhancing the engagement and reach of blog content.",
+        "Bloggers have access to a dashboard for managing posts, tracking reader statistics, and analyzing performance metrics",
+      ],
+    },
+    {
+      image:store,
+      title: "Book Store",
+      sentences: [
+        "The bookstore offers a wide selection of books across various genres, including fiction, non-fiction, academic, and children's books, providing a comprehensive resource for readers of all interests and ages.",
+        "Featuring an intuitive interface, the platform ensures easy navigation, detailed book descriptions, reviews, secure payment options, and a streamlined checkout process",
+        "The platform provides personalized book recommendations based on user preferences and browsing history, along with robust customer support, order tracking",
+      ],
+    },
+  ];
