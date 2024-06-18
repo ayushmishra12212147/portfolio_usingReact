@@ -1,5 +1,4 @@
 *{
-    
     list-style: none;
 }
 .skill2{
@@ -154,4 +153,6 @@ h3{
 }
 .about_me{
     display: flex;
+    animation: abc 3s;
+
 }

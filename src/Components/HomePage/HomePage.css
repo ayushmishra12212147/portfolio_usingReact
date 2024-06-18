@@ -1,6 +1,7 @@
 .Main_container{
     padding: 70px 30px;
     display: flex;
+    animation: def 3s;
 }
 .main_left{
     padding: 2px;

@@ -1,7 +1,10 @@
-import './About.css'
+import './About.css';
+import AOS from 'aos';
+AOS.init();
+
 function About(){
     return (
-        <div className="about_me">
+        <div className="about_me" >
         <div className="skill2">
             <h1>About <span className='green'>Me</span></h1>
 

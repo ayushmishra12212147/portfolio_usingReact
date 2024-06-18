@@ -8,7 +8,9 @@ import git from '../../assets/icons8-github-50.png';
 import hack from '../../assets/icons8-hackerrank-32.png';
 import din from '../../assets/icons8-linkedin-50.png';
 import ins from '../../assets/icons8-instagram-50.png';
-import profile from '../../assets/profile.jpeg'
+import profile from '../../assets/profile.jpeg';
+
+
 
 
 function HomePage() {

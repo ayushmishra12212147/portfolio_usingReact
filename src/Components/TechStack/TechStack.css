@@ -4,8 +4,9 @@
     text-align: center;
     margin-top: -50px;
 }
-.contaner{
+.container{
     margin-top: -20px;
+    animation: abc 3s;
 }
 .row1{
     display: flex;
@@ -27,3 +28,24 @@
     color:rgb(51, 255, 51);
 }
 
+
+@keyframes abc{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes def{
+    0%{
+        opacity: 0;
+        transform: translateX(-1120px) scale(0.98);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
