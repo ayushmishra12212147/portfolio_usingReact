@@ -1,6 +1,5 @@
 import './About.css';
-import AOS from 'aos';
-AOS.init();
+
 
 function About(){
     return (

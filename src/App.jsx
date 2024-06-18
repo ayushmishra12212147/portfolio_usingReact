@@ -4,6 +4,7 @@ import './App.css';
 import Teck from '../src/Components/TechStack/TechStack';
 import Project from '../src/Components/Projects/Projects';
 import About from '../src/Components/About/About';
+import Contact from '../src/Components/Contact/Contact';
 function App() {
   return (
     <div className='app'>
@@ -14,6 +15,7 @@ function App() {
       <Project/>
       
       <About/>
+      <Contact/>
     </div>
   )
 }
