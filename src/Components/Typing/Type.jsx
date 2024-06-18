@@ -9,7 +9,7 @@ function Type(){
 
     React.useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: [' Coder', ' Developer'],
+        strings: [' Coder', ' Developer','Programmer','Designer','Tech-savvy'],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,
