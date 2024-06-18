@@ -1,9 +1,23 @@
 import './Projects.css';
+// import {projectData} from '../../constants/index';
+import ProjectTile from '../Projects/ProjectTile/ProjectTile';
+import { projectData } from '../../constants';
 function Projects(){
     return (
-        <div className="container">
+        <div className="container_Projects">
             <div className="title">
                 My <span className='green'>Projects</span>
+            </div>
+            <div className="project_list">
+                {projectData.map((project,index)=>
+                <ProjectTile
+                key={project}
+                index={index}
+                title={project.title}
+                image={project.image}
+                sentences={project.sentences}
+                />
+                )}
             </div>
         </div>
     )

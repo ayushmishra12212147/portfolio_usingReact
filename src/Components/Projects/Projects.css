@@ -1,0 +1,10 @@
+.container_Projects{
+    margin-top: 200px;
+    
+}
+.project_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -30,7 +30,7 @@ function HomePage() {
           <a href=""><img src={git} alt="" className='social' /></a>
           <a href=""><img src={hack} alt="" className='hack social' /></a>
           <a href=""><img src={din} alt="" className='social' /></a>
-          <img src={ins} alt="" className='social' />
+          <a href=""><img src={ins} alt="" className='social' /></a>
         </div>
         <div className="button_section">
           <a href="#"><button>Explore More</button></a>

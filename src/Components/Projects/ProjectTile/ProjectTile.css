@@ -1,0 +1,29 @@
+.project_box_image_container >img{
+    width: 100%;
+    height: 150px;
+}
+.dabba{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgb(51, 255, 51);
+    padding: 5px;
+    width: 300px;
+    height: 500px;
+}
+.tile>p{
+    color: rgb(51, 255, 51);
+}
+.tile{
+    text-align: center;
+    font-size: 25px;
+}
+.project_box_sentences_container{
+    padding: 7px;
+    font-size: 17px;
+}
+.dabba:hover{
+    width: 330px;
+    height: 530px;
+    transition: 0.5s ease;
+
+}
