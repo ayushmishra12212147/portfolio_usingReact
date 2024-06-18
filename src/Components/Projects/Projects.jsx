@@ -6,7 +6,7 @@ function Projects(){
     return (
         <div className="container_Projects">
             <div className="title">
-                My <span className='green'>Projects</span>
+                My <span className='green bold'>Projects</span>
             </div>
             <div className="project_list">
                 {projectData.map((project,index)=>

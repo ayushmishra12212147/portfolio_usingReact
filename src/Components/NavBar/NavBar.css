@@ -9,9 +9,10 @@
     top: 0;
 }
 .navbar_left{
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 900;
-    color:rgb(51, 255, 51);;
+    color:rgb(51, 255, 51);
+    font-weight: bolder;
 }
 .navbar_right{
 

@@ -18,9 +18,9 @@ function HomePage() {
 
     <div className='Main_container'>
       <div className="main_left">
-        <p>Welcome to My Digital World!</p>
+        <p className='bold'>Welcome to My Digital World!</p>
         <div className="details">
-          <p>Hi, {am} Ayush Kumar Mishra , </p><Jadu />
+          <p>Hi, {am} Ayush Kumar Mishra, </p><Jadu />
         </div>
         <div className="discription">
           a second-year B.Tech student specializing in Computer Science Engineering at Lovely Professional University. <br />

@@ -5,7 +5,7 @@ function About(){
     return (
         <div className="about_me" >
         <div className="skill2">
-            <h1>About <span className='green'>Me</span></h1>
+            <h1 className='bold'>About <span className='green bold'>Me</span></h1>
 
             <li>
                 <h3>Java</h3>

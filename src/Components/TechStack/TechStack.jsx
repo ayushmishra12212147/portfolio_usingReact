@@ -6,7 +6,7 @@ function TechStack() {
     return (
         <div className="container">
             <div className="title">
-                Professional <span className='green'>SkillSet</span>
+                Professional <span className='green bold'>SkillSet</span>
             </div>
             <div className="techstack_icon_container">
                 {stackone.map(function (element) {
